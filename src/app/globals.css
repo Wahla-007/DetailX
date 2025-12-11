@@ -1,0 +1,78 @@
+@import "tailwindcss";
+
+:root {
+ --foreground-rgb: 255, 255, 255;
+ --background-start-rgb: 0, 0, 0;
+ --background-end-rgb: 10, 10, 10;
+ --primary-rgb: 239, 68, 68; /* Red-500 */
+}
+
+@layer base {
+ body {
+  color: rgb(var(--foreground-rgb));
+  background: linear-gradient(
+    to bottom,
+    transparent,
+    rgb(var(--background-end-rgb))
+   )
+   rgb(var(--background-start-rgb));
+  min-height: 100vh;
+  /* @apply antialiased overflow-x-hidden; */
+  font-family: var(--font-inter);
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  overflow-x: hidden;
+ }
+
+ html {
+  scroll-behavior: smooth;
+ }
+}
+
+@layer utilities {
+ .text-balance {
+  text-wrap: balance;
+ }
+
+ .glass {
+  @apply bg-black/80 backdrop-blur-md border-b border-white/10;
+ }
+
+ .text-gradient {
+  @apply bg-clip-text text-transparent bg-gradient-to-r from-white to-gray-400;
+ }
+
+ .text-gradient-red {
+  @apply bg-clip-text text-transparent bg-gradient-to-r from-red-500 to-red-600;
+ }
+
+ .btn-primary {
+  @apply inline-flex items-center justify-center rounded-full bg-red-600 px-8 py-3 text-sm font-medium text-white shadow-lg shadow-red-500/30 transition-all hover:bg-red-700 hover:scale-105 active:scale-95;
+ }
+
+ .section-padding {
+  @apply py-20 md:py-32;
+ }
+
+ .container-width {
+  @apply container mx-auto px-6 max-w-7xl;
+ }
+}
+
+/* Custom Scrollbar */
+::-webkit-scrollbar {
+ width: 8px;
+}
+
+::-webkit-scrollbar-track {
+ background: #000;
+}
+
+::-webkit-scrollbar-thumb {
+ background: #333;
+ border-radius: 4px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+ background: #ef4444;
+}
