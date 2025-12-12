@@ -8,9 +8,9 @@ export default function Hero() {
  return (
   <section
    id="home"
-   className="relative min-h-screen flex items-center justify-center overflow-hidden pt-20">
+   className="relative min-h-screen flex items-center justify-center overflow-hidden py-20">
    {/* Dynamic Background Elements */}
-   <div className="absolute inset-0 bg-[radial-gradient(circle_at_center,_var(--tw-gradient-stops))] from-neutral-900/50 via-black to-black -z-10" />
+   <div className="absolute inset-0 bg-[radial-gradient(circle_at_center,_var(--tw-gradient-stops))] from-neutral-900/50 via-black to-black z-10" />
 
    <motion.div
     className="absolute top-1/4 left-1/4 w-96 h-96 bg-red-600/20 rounded-full blur-[100px]"
@@ -48,14 +48,17 @@ export default function Hero() {
      </span>
 
      <h1 className="text-5xl md:text-7xl lg:text-8xl font-bold tracking-tight mb-8">
-      CAR DETAILING
+      MOBILE DETAILING
       <br />
-      <span className="text-gradient-red">AT YOUR DOORSTEP</span>
+      <span className="text-gradient-red">IN YOUR CITY</span>
      </h1>
 
      <p className="max-w-2xl mx-auto text-lg md:text-xl text-gray-400 mb-10 leading-relaxed text-balance">
-      Professional car washing and detailing services delivered to your home or
-      office. We bring the shine to you with premium products and expert care.
+      Professional mobile car detailing delivered to your doorstep in{" "}
+      <span className="text-white font-medium">
+       Lahore, Islamabad, Rawalpindi, Karachi & Faisalabad
+      </span>
+      . We bring the showroom shine to you.
      </p>
 
      <div className="flex flex-col sm:flex-row items-center justify-center gap-4">
@@ -73,7 +76,7 @@ export default function Hero() {
    </div>
 
    <motion.div
-    className="absolute bottom-10 left-1/2 -translate-x-1/2 text-gray-500"
+    className="absolute z-[100] bottom-1 left-1/2 -translate-x-1/2 text-gray-500 block"
     animate={{ y: [0, 10, 0] }}
     transition={{ duration: 2, repeat: Infinity }}>
     <div className="flex flex-col items-center gap-2">

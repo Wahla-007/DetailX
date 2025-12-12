@@ -45,7 +45,9 @@ const services = [
 
 export default function Services() {
  return (
-  <section id="services" className="section-padding bg-black relative">
+  <section
+   id="services"
+   className="section-padding bg-black relative overflow-hidden">
    <div className="container-width">
     <div className="text-center mb-20">
      <span className="text-red-500 tracking-widest uppercase text-sm font-semibold mb-4 block">
