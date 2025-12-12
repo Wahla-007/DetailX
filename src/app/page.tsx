@@ -10,9 +10,9 @@ export default function Home() {
  return (
   <main className="min-h-screen bg-black text-white selection:bg-red-500 selection:text-white">
    <Hero />
-   <Offers />
    <About />
    <Services />
+   <Offers />
    <Gallery />
    <Testimonials />
    <Contact />

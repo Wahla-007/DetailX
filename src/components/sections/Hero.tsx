@@ -12,31 +12,8 @@ export default function Hero() {
    {/* Dynamic Background Elements */}
    <div className="absolute inset-0 bg-[radial-gradient(circle_at_center,_var(--tw-gradient-stops))] from-neutral-900/50 via-black to-black z-10" />
 
-   <motion.div
-    className="absolute top-1/4 left-1/4 w-96 h-96 bg-red-600/20 rounded-full blur-[100px]"
-    animate={{
-     scale: [1, 1.2, 1],
-     opacity: [0.2, 0.4, 0.2],
-    }}
-    transition={{
-     duration: 8,
-     repeat: Infinity,
-     ease: "easeInOut",
-    }}
-   />
-   <motion.div
-    className="absolute bottom-1/4 right-1/4 w-[500px] h-[500px] bg-blue-900/10 rounded-full blur-[120px]"
-    animate={{
-     scale: [1.2, 1, 1.2],
-     opacity: [0.1, 0.3, 0.1],
-    }}
-    transition={{
-     duration: 10,
-     repeat: Infinity,
-     ease: "easeInOut",
-     delay: 1,
-    }}
-   />
+   <div className="absolute top-1/4 left-1/4 w-96 h-96 bg-red-600/20 rounded-full blur-[100px] animate-blob" />
+   <div className="absolute bottom-1/4 right-1/4 w-[500px] h-[500px] bg-blue-900/10 rounded-full blur-[120px] animate-blob animation-delay-2000" />
 
    <div className="container-width text-center z-10">
     <motion.div
@@ -75,15 +52,12 @@ export default function Hero() {
     </motion.div>
    </div>
 
-   <motion.div
-    className="absolute z-[100] bottom-1 left-1/2 -translate-x-1/2 text-gray-500 block"
-    animate={{ y: [0, 10, 0] }}
-    transition={{ duration: 2, repeat: Infinity }}>
+   <div className="absolute z-[100] bottom-1 left-1/2 -translate-x-1/2 text-gray-500 block animate-float">
     <div className="flex flex-col items-center gap-2">
      <span className="text-xs uppercase tracking-widest">Scroll Down</span>
      <ChevronDown className="w-5 h-5" />
     </div>
-   </motion.div>
+   </div>
   </section>
  );
 }
