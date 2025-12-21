@@ -37,7 +37,7 @@ export default function Navbar() {
    <div className="container mx-auto px-6 flex items-center justify-between">
     {/* Logo */}
     <Link href="/" className="text-2xl font-bold tracking-wider">
-     DETAIL<span className="text-red-500">X</span>
+     Wash <span className="text-red-500">&</span> Detail
     </Link>
 
     {/* Desktop Nav */}

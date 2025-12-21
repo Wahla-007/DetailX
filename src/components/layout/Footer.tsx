@@ -6,11 +6,13 @@ export default function Footer() {
    <div className="container mx-auto px-6">
     <div className="flex flex-col md:flex-row justify-between items-center gap-8">
      <div className="text-2xl font-bold tracking-wider">
-      DETAIL<span className="text-red-500">X</span>
+      <Link href="/" className="text-2xl font-bold tracking-wider">
+       Wash <span className="text-red-500">&</span> Detail
+      </Link>
      </div>
 
      <div className="text-gray-400 text-sm">
-      © {new Date().getFullYear()} DetailX. All rights reserved.
+      © {new Date().getFullYear()} WashandDetail. All rights reserved.
      </div>
 
      <div className="flex gap-6">

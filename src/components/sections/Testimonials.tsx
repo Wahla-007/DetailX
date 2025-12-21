@@ -33,7 +33,7 @@ const reviews = [
    "https://images.unsplash.com/photo-1500648767791-00dcc994a43e?fit=crop&w=100&h=100",
   rating: 5,
   text:
-   "I am very particular about my cars. DetailX is one of the few services I trust with my detailing needs. Professional, courteous, and detailed.",
+   "I am very particular about my cars. WashandDetail is one of the few services I trust with my detailing needs. Professional, courteous, and detailed.",
  },
 ];
 

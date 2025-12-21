@@ -21,21 +21,20 @@ export default function Hero() {
      animate={{ opacity: 1, y: 0 }}
      transition={{ duration: 0.8 }}>
      <span className="inline-block px-4 py-1 mb-6 text-sm font-medium tracking-widest text-red-500 uppercase bg-red-500/10 rounded-full border border-red-500/20 backdrop-blur-sm">
-      Premium Mobile Car Detailing
+      #1 Premium Mobile Car Wash Services
      </span>
 
      <h1 className="text-5xl md:text-7xl lg:text-8xl font-bold tracking-tight mb-8">
-      MOBILE DETAILING
+      MOBILE CAR WASH
       <br />
       <span className="text-gradient-red">IN YOUR CITY</span>
      </h1>
 
      <p className="max-w-2xl mx-auto text-lg md:text-xl text-gray-400 mb-10 leading-relaxed text-balance">
-      Professional mobile car detailing delivered to your doorstep in{" "}
-      <span className="text-white font-medium">
-       Lahore, Islamabad, Rawalpindi, Karachi & Faisalabad
-      </span>
-      . We bring the showroom shine to you.
+      Looking for{" "}
+      <span className="text-white font-medium">car wash services near me</span>?
+      We provide professional mobile autodetailing in Lahore, Islamabad,
+      Rawalpindi, Karachi & Faisalabad.
      </p>
 
      <div className="flex flex-col sm:flex-row items-center justify-center gap-4">

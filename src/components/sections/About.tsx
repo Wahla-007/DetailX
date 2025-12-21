@@ -44,7 +44,7 @@ export default function About() {
       viewport={{ once: true }}
       transition={{ duration: 0.8 }}>
       <span className="text-red-500 tracking-widest uppercase text-sm font-semibold mb-4 block">
-       About DetailX
+       About WashandDetail
       </span>
       <h2 className="text-4xl md:text-5xl font-bold mb-8">
        We Should Be Your Top Choice
@@ -53,10 +53,10 @@ export default function About() {
 
       <div className="space-y-6 text-gray-400 text-lg leading-relaxed">
        <p>
-        DetailX brings professional car washing and detailing services right to
-        your doorstep. No need to drive to a car wash or wait in long lines. We
-        come equipped with everything needed to make your vehicle look showroom
-        fresh.
+        <strong className="text-white">WashandDetail</strong> brings
+        professional car washing and detailing services right to your doorstep.
+        No need to drive to a car wash or wait in long lines. We come equipped
+        with everything needed to make your vehicle look showroom fresh.
        </p>
        <p>
         Our experienced team uses premium products and proven techniques to

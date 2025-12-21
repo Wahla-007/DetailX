@@ -1,7 +1,7 @@
 import { MetadataRoute } from "next";
 
 export default function sitemap(): MetadataRoute.Sitemap {
- const baseUrl = "https://detailx.works"; // Assuming .pk domain or generic placeholder until confirmed
+ const baseUrl = "https://washanddetail.works";
 
  return [
   {

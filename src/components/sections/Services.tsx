@@ -10,8 +10,8 @@ const services = [
  {
   title: "Exterior Car Wash",
   description:
-   "Professional exterior cleaning and shine to remove dirt and grime.",
-  duration: "2 hrs",
+   "Premium mobile car wash service including tire dressing and rim cleaning to remove road grime.",
+  duration: "1-2 hrs",
   image: "/gallery/Polishing Civiv 21 model.jpeg",
   features: ["Hand Wash", "Wheel Cleaning", "Tire Shine", "Window Cleaning"],
  },
@@ -19,7 +19,7 @@ const services = [
   title: "Interior Deep Clean",
   description:
    "Complete interior restoration including vacuuming and leather care.",
-  duration: "2 hrs",
+  duration: " 40 min",
   image: "/gallery/full details.webp",
   features: [
    "Deep Vacuuming",
@@ -32,7 +32,7 @@ const services = [
   title: "Full Deep Clean",
   description:
    "The ultimate package. Complete exterior and interior detailing service.",
-  duration: "3-4 hrs",
+  duration: "2 hrs",
   image: "/gallery/Bentley After Wash.jpg",
   features: [
    "Exterior Wash & Wax",
@@ -54,7 +54,7 @@ export default function Services() {
       Our Services
      </span>
      <h2 className="text-4xl md:text-5xl font-bold mb-6">
-      Choose Your Package
+      Autodetailing Services
      </h2>
      <div className="w-20 h-1 bg-red-600 mx-auto" />
     </div>

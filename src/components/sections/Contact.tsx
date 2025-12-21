@@ -74,9 +74,9 @@ export default function Contact() {
        <div>
         <h4 className="font-semibold text-lg">Email Us</h4>
         <a
-         href="mailto:info@detailx.com"
+         href="mailto:info@WashandDetail.com"
          className="text-gray-400 hover:text-white transition-colors">
-         info@detailx.com
+         info@WashandDetail.com
         </a>
        </div>
       </div>
@@ -88,14 +88,14 @@ export default function Contact() {
        <div>
         <h4 className="font-semibold text-lg">Service Area</h4>
         <p className="text-gray-400">
-         Mobile Service - We come to your location.
+         Mobile Service in Lahore, Islamabad, Rawalpindi, Karachi & Faisalabad.
         </p>
        </div>
       </div>
 
       <div className="p-8 bg-neutral-900 rounded-2xl border border-white/5 mt-12">
        <h4 className="font-bold text-lg mb-4 text-red-500">
-        Why Choose DetailX?
+        Why Choose WashandDetail?
        </h4>
        <ul className="space-y-3 text-gray-400">
         <li className="flex items-center gap-2">

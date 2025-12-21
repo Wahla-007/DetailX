@@ -2,8 +2,8 @@ import { MetadataRoute } from "next";
 
 export default function manifest(): MetadataRoute.Manifest {
  return {
-  name: "DetailX - Premium Mobile Car Detailing",
-  short_name: "DetailX",
+  name: "WashandDetail - Premium Mobile Car Detailing",
+  short_name: "WashandDetail",
   description:
    "Premier mobile car detailing service in Lahore, Islamabad, Karachi & more.",
   start_url: "/",
