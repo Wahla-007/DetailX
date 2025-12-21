@@ -5,6 +5,7 @@ import Navbar from "@/components/layout/Navbar";
 import Footer from "@/components/layout/Footer";
 import FloatingContact from "@/components/ui/FloatingContact";
 import PromotionPopup from "@/components/ui/PromotionPopup";
+import Script from "next/script";
 
 const inter = Inter({ subsets: ["latin"], variable: "--font-inter" });
 
@@ -135,6 +136,21 @@ export default function RootLayout({
  return (
   <html lang="en" className="scroll-smooth">
    <body className={`${inter.className} overflow-x-hidden`}>
+    {/* --- Google Analytics Start --- */}
+    <Script
+     src="https://www.googletagmanager.com/gtag/js?id=G-42LQ0GCH2L"
+     strategy="afterInteractive"
+    />
+    <Script id="google-analytics" strategy="afterInteractive">
+     {`
+            window.dataLayer = window.dataLayer || [];
+            function gtag(){dataLayer.push(arguments);}
+            gtag('js', new Date());
+
+            gtag('config', 'G-42LQ0GCH2L');
+          `}
+    </Script>
+    {/* --- Google Analytics End --- */}
     <script
      type="application/ld+json"
      dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }}
